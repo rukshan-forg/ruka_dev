@@ -1,13 +1,15 @@
-import './App.css'
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import Background from "./background/Background.jsx";
+import NavigationMenu from "./Component/NavigationMenu.jsx";
 
-function App() {
+const App = () => {
+    return (
+        <div className="">
+            <NavigationMenu />
+        </div>
 
-  return (
-    <div className="App w-screen h-screen bg-gray-800">
-
-    </div>
-  )
-
-}
+    );
+};
 
 export default App;
