@@ -6,6 +6,7 @@ import NavigationMenu from "./Component/NavigationMenu.jsx";
 const App = () => {
     return (
         <div className="">
+            <Background />
             <NavigationMenu />
         </div>
 
